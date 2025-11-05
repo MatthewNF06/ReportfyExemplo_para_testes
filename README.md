@@ -101,4 +101,5 @@ jobs:
 
 - 4️⃣ Geração do Resumo O conteúdo é enviado à API Gemini (Google) via requisição POST. A IA gera um resumo em Português-BR, com: Comparativo Prometido vs Realizado Throughput (quantas issues fechadas) Nome do desenvolvedor entre colchetes [ ] Observações sobre padrão de contribuição e papel no time 
 
-- 5️⃣ Envio ao Discord O bot envia: Mensagens de status (ex: “🚀 Iniciando geração de relatório...”) O resumo gerado, dividido em blocos de até 2000 caracteres Uma mensagem final de sucesso ✅ 
+- 5️⃣ Envio ao Discord O bot envia: Mensagens de status (ex: “🚀 Iniciando geração de relatório...”) O resumo gerado, dividido em blocos de até 2000 caracteres. Com uma mensagem final de sucesso ✅
+- *OBS: em caso de erros da API ou da I.A, ele vai relatar o tipo de erro e o numero dele.*
