@@ -23,7 +23,6 @@ O bot roda automaticamente via **GitHub Actions**, utilizando **variáveis de am
 ├── .github/
 │   └── workflows/
 │       └── run_bot.yml        # Workflow do GitHub Actions
-├── Reports/                   # Pasta onde o Reportify salva os relatórios
 ├── bot_reportify.py           # Código principal do bot
 ├── requirements.txt           # Dependências do projeto
 └── README.md                  # Este arquivo
